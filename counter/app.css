@@ -1,0 +1,34 @@
+body{
+    width:100%;
+    height:100vh;
+    background-color:#f4acb7;
+    display: flex;
+}
+
+.continer{
+    margin: auto;
+    width:40%;
+    height: 50%;
+    background-color:#ce204b;
+    color:#ffffff;
+    text-align: center;
+    align-content: center;
+
+
+}
+
+.btn{
+    background-color:#004e64;
+    color:#ffffff;
+    font-size:large;
+}
+
+.btn:hover{
+    background-color:#00313f;
+
+}
+
+#counterValue{
+    font-size: xx-large;
+    margin:20px;
+}

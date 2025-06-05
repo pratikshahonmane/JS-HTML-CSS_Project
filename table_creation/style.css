@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display:grid;
+    justify-content : space-evenly;
+    background-color:rgb(158, 201, 238)
+}
+
+#data {
+    height: 600px;
+    overflow:scroll;
+    background-color:rgb(205, 212, 219)
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+th, td {
+    width: 100px;
+}
