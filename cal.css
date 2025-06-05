@@ -1,0 +1,79 @@
+body {
+    border: 10px solid #333;
+  padding: 30px;
+    border: solid;
+    margin: 55px;
+    width: 400px;
+    height: fit-content;
+    justify-self: anchor-center;
+    border-radius: 30px;
+    background-color:beige;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+
+}
+.sec{
+    background-color:rgb(43, 43, 28);
+}
+h1{
+    justify-self: anchor-center;
+    font-size:x-large
+}
+
+
+#input {
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 34px;
+    width: 92%;
+    height: 53PX;
+    padding: 6px;
+    font-size: larger;
+    border: solid;
+    border-radius: 16px;
+    background-color:rgb(201, 237, 239)  ;
+}
+
+.btn,
+#equ,
+#back {
+    font-family: 'Orbitron', sans-serif;
+      font-weight: 700;
+    width: 96px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: medium;
+    background-color:rgb(156, 189, 250)
+}
+#clear{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background-color:rgb(240, 120, 120)
+
+}
+
+
+
+
+
+/* Button Grid Layout */
+#all-btn {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+#num-but {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#op-btn {
+
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#clear{
+     grid-column: 1 / 3;
+}
